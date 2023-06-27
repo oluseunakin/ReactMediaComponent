@@ -1,5 +1,5 @@
 {
-  "name": "mediacomponent",
+  "name": "@seunakin/mediacomponent",
   "version": "1.0.0",
   "description": "My React Media Component",
   "main": "index.js",
