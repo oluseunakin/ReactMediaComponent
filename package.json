@@ -1,6 +1,6 @@
 {
   "name": "@seunakin/mediacomponent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My React Media Component",
   "main": "index.tsx",
   "type": "module",
