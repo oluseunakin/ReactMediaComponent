@@ -1,16 +1,30 @@
 {
   "name": "@seunakin/mediacomponent",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "My React Media Component",
   "main": "index.tsx",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@tsconfig/node12": "^12.1.0",
     "@types/node": "^20.3.2",
     "@types/react": "^18.2.14",
-    "react": "^18.2.0"
+    "babel-loader": "^9.1.3",
+    "file-loader": "^6.2.0",
+    "typescript": "^5.1.6",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }

@@ -1,0 +1,15 @@
+{
+    "extends": "@tsconfig/node12/tsconfig.json",
+    "compilerOptions": {
+        "preserveConstEnums": true,
+        "declaration": true,
+        "lib": ["DOM", "ESNext"],
+        "jsx": "preserve"
+    },
+    "files": [
+        "index.tsx"
+    ],
+    "emit": {
+        "declaration": true
+    }
+}
